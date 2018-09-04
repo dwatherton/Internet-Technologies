@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Positioning Lab</title>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #ECECEC;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+	line-height: 24px;
+}
+#wrapper {
+	background-color: #FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#red {
+	background-color: #900;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+}
+#green {
+	background-color: #090;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 160px;
+	height: 160px;
+}
+#blue {
+	background-color: #00F;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+}
+#purple {
+	background-color: #63C;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 160px;
+	height: 160px;
+}
+#footer {
+	background-color: #666;
+	height: 150px;
+	width: 160px;
+	margin: 20px 320px 20px 320px;
+}
+h1 {
+	color: #000;
+	font-weight: normal;
+	padding: 50px;
+}
+</style>
+</head>
+
+<body>
+<h1>Absolute 1</h1>
+<div id="wrapper">
+  <div id="red">Red</div>
+  <div id="green">Green</div>
+  <div id="blue">Blue</div>
+  <div id="purple">Purple</div>
+  <div id="footer">Footer</div>
+</div>
+</body>
+</html>

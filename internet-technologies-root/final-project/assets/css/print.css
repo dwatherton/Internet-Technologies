@@ -1,0 +1,36 @@
+@media print {
+	nav.primary {
+		display: none;
+	}
+
+	form {
+		display: none;
+	}
+
+	a {
+		color: black;
+		background-color: white;
+	}
+
+	a:after {
+		content: " ( "attr(href)" )";
+	}
+
+	.img-right {
+		height: 35%;
+		width: 35%;
+		float: right;
+		margin-left: 15px;
+	}
+
+	header.primary {
+		font-size: 10pt;
+		font-weight: normal;
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	thead th {
+		font-weight: normal;
+	}
+}

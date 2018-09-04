@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.img-right {
+	float: right;
+	margin: 3px 45px 15px 20px;
+	border: 2px solid black;
+}
+
+#content a:link {
+	color: darkblue;
+	background-color: slategrey;
+	font-weight: 300;
+}
+
+#content a:visited {
+	color: darkblue;
+	background-color: slategrey;
+}
+
+#content a:hover {
+	text-decoration: underline;
+	background-color: lightgray;
+	color: darkblue;
+	font-weight: bolder;
+}
+
+#content a:active {
+	text-decoration: underline;
+	background-color: grey;
+	color: black;
+}
+
+nav.primary {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	margin-left: auto;
+	list-style: none;
+	width: 100%;
+}
+
+nav.primary li {
+	display: inline;
+}
+
+nav.primary li a {
+	text-decoration: none;
+	padding: 5px 0;
+	background: black;
+	color: white;
+	float: left;
+	height: 30px;
+	width: 18.53%;
+	text-align: center;
+	font-size: 25px;
+	border-left: 3px solid white;
+}
+
+nav.primary li a:hover {
+	background-color: grey;
+	color: white;
+}
+
+header {
+	padding: 65px 0 10px 0;
+	text-align: center;
+}
+
+#content p {
+	margin: 10px 45px 0 45px;
+}
+
+#content .p-form {
+	width: 90%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+main {
+	width: 75%;
+	height: auto;
+	background-color: slategrey;
+	color: black;
+	margin: auto;
+	font-size: 100%;
+}
+
+#content table {
+	position: relative;
+	width: 90%;
+	margin: 40px auto;
+	border: 2px solid #ccc;
+}
+
+#content th {
+	background: #000;
+	color: #fff;
+	padding: 5px;
+}
+
+#content tr:nth-child(even) {
+	background: lightgrey;
+	color: black;
+}
+
+#content tr:nth-child(odd) {
+	background: #6087AF;
+	color: black;
+}
+
+#content tr:hover {
+	background: grey;
+	color: white;
+}
+
+#content td {
+	border-top: 2px solid #ccc;
+	padding: 5px;
+	text-align: center;
+}
+
+ol {
+	margin: 55px 60px;
+}
+
+ol li {
+	margin-top: 5px;
+}
+
+footer {
+	margin-top: 20px;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #6087AF;
+	color: black;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+form {
+	position: relative;
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+form fieldset {
+	border: 1px solid white;
+	border-radius: 7px;
+	background-color: #6087AF;
+	color: black;
+}
+
+form legend {
+	font-size: 100%;
+}
+
+form label {
+	margin-left: 50px;
+}
+
+form input {
+	margin-top: 15px;
+	margin-right: auto;
+}
+
+form input.fName {
+	margin-left: 23px;
+}
+
+form input.lName {
+	margin-left: 22px;
+}
+
+form input.city {
+	margin-left: 63px;
+}
+
+form input.state {
+	margin-left: 63px;
+}
+
+form input.zipCode {
+	margin-left: 32px;
+}
+
+form select.category {
+	margin-top: 15px;
+	margin-left: 34px;
+	width: 248px;
+}
+
+textarea {
+	margin-top: 30px;
+	margin-left: 42px;
+	width: 750px;
+	height: 170px;
+}
+
+span {
+	margin-left: 42px;
+}
+
+form input.submit {
+	width: 150px;
+	margin: 15px 0 15px 43%;
+}

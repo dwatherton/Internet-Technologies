@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Feedback</title>
+	<meta charset="UTF-8" />
+	<meta name="robots" content="noindex" />
+	<!--Just to be safe I went ahead and added the noindex meta tag to this project.-->
+	<meta name="keywords" content="skateboarding resources, skateboards, skateboarding, resources, information, skate info, decks, trucks, wheels, bearings, hardware, parks" />
+	<meta name="description" content="Skateboarding Resources provides information on skateboarding products and skate parks." />
+	<meta name="author" content="Daniel Atherton" />
+	<link href="assets/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="assets/css/print.css" rel="stylesheet" media="print" type="text/css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="assets/js/javascript.js"></script>
+</head>
+
+<body>
+	<main class="container">
+		<nav class="primary">
+			<ul>
+				<li><a href="index.html" title="Homepage">Homepage</a></li>
+				<li><a href="products.html" title="Products">Products</a></li>
+				<li><a href="skateparks.html" title="Skateparks">Skateparks</a></li>
+				<li><a href="feedback.html" title="Feedback">Feedback</a></li>
+			</ul>
+		</nav>
+		<!--nav.primary closed-->
+		<header class="primary">
+			<h1>Feedback</h1>
+		</header>
+
+		<section id="content">
+
+			<p class="p-form">Please fill out the form below to provide us with feedback and help us to improve. We appreciate it.</p>
+
+			<form action="#" method="get">
+				<fieldset>
+					<legend>Please provide us with your information</legend>
+					<label>First Name:</label>
+					<input class="fName" type="text" name="fName" size="30" placeholder="First Name" />
+					<label>Last Name:</label>
+					<input class="lName" type="text" name="lName" size="30" placeholder="Last Name" /><br />
+					<label>Email Address:</label>
+					<input class="emailAddress" type="email" name="emailAddress" size="87" placeholder="Email Address" /><br />
+					<label>Home Address:</label>
+					<input class="homeAddress" type="text" name="homeAddress" size="30" placeholder="Street Address" />
+					<label>City:</label>
+					<input class="city" type="text" name="city" size="30" placeholder="City" /><br />
+					<label>State:</label>
+					<input class="state" type="text" name="state" size="30" placeholder="State" />
+					<label>Zip Code:</label>
+					<input class="zipCode" type="text" name="zipCode" size="30" placeholder="Zip Code" /><br />
+					<label>Category:</label>
+					<select class="category" name="category">
+							<option value="selectOne" disabled selected>Select One</option>
+							<option value="info">Information</option>
+							<option value="buisness">Buisness</option>
+							<option value="technical">Technical</option>
+							<option value="other">Other</option>
+						</select><br />
+					<textarea id="textareaChars" maxlength="500" placeholder="Your feedback goes here.."></textarea><br />
+					<span id="chars">500</span> characters remaining<br/>
+					<input class="submit" type="submit" value="Submit" title="Submit" />
+				</fieldset>
+			</form>
+			<!--I'd considered using a pre-made form from wufoo or another site that does the majority of the work for me, but decided i'd rather get the practice in designing my own form completely from scratch. I think it turned out nicely.-->
+
+		</section>
+		<!--#content closed-->
+
+		<footer class="primary">
+			<h6>&copy;2017, Skateboarding Resources. It is our mission to provide skaters with the information they need to delve deeper into the world of skateboarding. <sup><a href="#" title="Reuturn to Top of the Page">Return to Top</a></sup></h6>
+		</footer>
+		<!--footer.primary closed-->
+	</main>
+	<!--main.container closed-->
+</body>
+
+</html>
